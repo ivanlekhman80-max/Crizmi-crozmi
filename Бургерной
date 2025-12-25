@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crizmi Crozmi | Самые сочные бургеры</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">CRIZMI <span>CROZMI</span></div>
+            <ul>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>CRIZMI CROZMI</h1>
+            <p>Хрустящая корочка. Сочное мясо. Твой идеальный бургер.</p>
+            <a href="#menu" class="btn">Заказать сейчас</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Наше Меню</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="img-placeholder">🍔</div>
+                <h3>Кризми Чиз</h3>
+                <p>Классика с двойным сыром и секретным соусом.</p>
+                <span class="price">450 ₽</span>
+            </div>
+            <div class="menu-item">
+                <div class="img-placeholder">🔥</div>
+                <h3>Крозми Спайс</h3>
+                <p>Острый халапеньо и копченый бекон.</p>
+                <span class="price">490 ₽</span>
+            </div>
+            <div class="menu-item">
+                <div class="img-placeholder">🥓</div>
+                <h3>Биг Крозми</h3>
+                <p>Огромный бургер для настоящих чемпионов.</p>
+                <span class="price">580 ₽</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>📍 ул. Бургерная, 1 | 📞 +7 (999) 000-00-00</p>
+        <p>&copy; 2024 Crizmi Crozmi. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
